@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Contacto</title>
+  </head>
+  <body class="bg-[#fbf9fc] h-screen flex flex-col">
+    <header>
+      <nav
+        class="w-full bg-[#b7c9d9] h-24 flex items-center justify-center text-[#2c2c2c] md:text-xl font-light"
+      >
+        <ul class="flex gap-4 md:gap-10">
+          <li>
+            <a
+              href="index.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              href="avisos.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Avisos</a
+            >
+          </li>
+          <li>
+            <a
+              href="sobre-mi.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Sobre mi</a
+            >
+          </li>
+          <li>
+            <a
+              href="materias.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Materias</a
+            >
+          </li>
+          <li>
+            <a
+              href="contacto.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="flex grow flex-col items-center text-center py-8 px-4 md:py-10 md:px-24 gap-8"
+    >
+      <h1 class="text-3xl text-[#2c2c2c]">Contacto</h1>
+      <form
+        class="flex flex-col text-start bg-[#f6b5b1] rounded-3xl p-4 gap-4 max-w-96 w-full"
+      >
+        <div class="flex flex-col gap-1">
+          <label for="nombre">Nombre</label>
+          <input
+            class="text-sm p-2 bg-[#ffe4e6] rounded-lg w-full"
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+          />
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <label for="email">Correo electrónico</label>
+          <input
+            class="text-sm p-2 bg-[#ffe4e6] rounded-lg w-full"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <label for="asunto">Asunto</label>
+          <input
+            class="text-sm p-2 rounded-lg w-full bg-[#ffe4e6]"
+            type="text"
+            id="asunto"
+            name="asunto"
+          />
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            class="text-sm p-2 bg-[#ffe4e6] rounded-lg w-full"
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            cols="30"
+            required
+          ></textarea>
+        </div>
+
+        <button
+          class="cursor-pointer hover:text-[#f6b5b1] hover:font-bold font-light bg-white rounded-lg px-4 py-2 transition-all duration-125"
+          type="submit"
+        >
+          Enviar
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

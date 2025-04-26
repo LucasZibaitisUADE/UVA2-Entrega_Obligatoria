@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Sobre mi</title>
+  </head>
+  <body class="bg-[#f7f7f9] h-screen flex flex-col">
+    <header>
+      <nav
+        class="w-full bg-[#b7c9d9] h-24 flex items-center justify-center text-[#2c2c2c] md:text-xl font-light"
+      >
+        <ul class="flex gap-4 md:gap-10">
+          <li>
+            <a
+              href="index.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              href="avisos.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Avisos</a
+            >
+          </li>
+          <li>
+            <a
+              href="sobre-mi.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Sobre mi</a
+            >
+          </li>
+          <li>
+            <a
+              href="materias.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Materias</a
+            >
+          </li>
+          <li>
+            <a
+              href="contacto.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="flex flex-col grow items-center py-8 md:py-10 px-4 md:px-24 gap-8"
+    >
+      <h1 class="text-3xl text-[#2c2c2c]">Sobre mi</h1>
+      <section
+        class="flex flex-col md:flex-row gap-4 bg-[#f6b5b1] p-4 rounded-3xl w-full max-w-4xl"
+      >
+        <img src="./assets/me.jpg" class="md:size-96 rounded-3xl shadow-md" />
+        <div class="flex flex-col gap-4 text-center md:text-start">
+          <div>
+            <p class="text-4xl">Lucas Zibaitis</p>
+            <p class="text-xl md:text-3xl font-extralight">
+              Licenciatura en Gestión de IT
+            </p>
+          </div>
+          <div class="flex flex-col grow md:justify-between">
+            <p class="md:text-lg font-light">
+              Tengo 24 años, soy de Buenos Aires y trabajo de desarrollador de
+              software web en
+              <a
+                class="font-semibold hover:underline"
+                href="https://lightit.io/"
+                target="_blank"
+                >Light-it</a
+              >. <br />Además, soy Técnico en Sonido y Grabación con
+              especialidad en Producción Musical.
+            </p>
+            <a
+              class="font-semibold hover:underline"
+              href="https://www.linkedin.com/in/lucaszibaitis/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

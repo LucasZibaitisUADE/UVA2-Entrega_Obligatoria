@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Diseño y Desarrollo Web</title>
+  </head>
+  <body class="bg-[#f7f7f9] h-screen flex flex-col">
+    <header>
+      <nav
+        class="w-full bg-[#b7c9d9] h-24 flex items-center justify-center text-[#2c2c2c] md:text-xl font-light"
+      >
+        <ul class="flex gap-4 md:gap-10">
+          <li>
+            <a
+              href="index.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              href="avisos.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Avisos</a
+            >
+          </li>
+          <li>
+            <a
+              href="sobre-mi.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Sobre mi</a
+            >
+          </li>
+          <li>
+            <a
+              href="materias.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Materias</a
+            >
+          </li>
+          <li>
+            <a
+              href="contacto.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="flex grow flex-col items-center text-center py-8 px-4 md:py-10 md:px-24 gap-8"
+    >
+      <h1 class="text-3xl text-[#2c2c2c]">Diseño y Desarrollo Web</h1>
+      <section
+        class="w-full h-full grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-4"
+      >
+        <div
+          class="bg-[#b3e5fc] md:col-span-1 md:col-start-1 rounded-3xl p-4 flex flex-col gap-4"
+        >
+          <h2 class="text-xl underline">Fechas de exámenes</h2>
+          <ul class="list-disc list-inside flex flex-col gap-2">
+            <li>25/04/2025</li>
+            <li>25/06/2025</li>
+          </ul>
+        </div>
+        <div
+          class="bg-[#ffe0b2] md:col-span-1 md:col-start-1 rounded-3xl p-4 flex flex-col gap-4"
+        >
+          <h2 class="text-xl underline">Bibliografía</h2>
+          <ul class="list-disc list-inside flex flex-col gap-2">
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/le/content/43569/viewContent/557789/View"
+                target="_blank"
+                >Exposición de Experto: Internet y WWW</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/le/content/43569/viewContent/557790/View"
+                target="_blank"
+                >Video: ¿Cómo funciona el internet?</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/le/content/43569/viewContent/557794/View"
+                target="_blank"
+                >Exposición de Experto: HTML - Etiquetas</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/le/content/43569/viewContent/557798/View"
+                target="_blank"
+                >Exposición de Experto: Arquitectura</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bg-[#d1c4e9] md:col-span-2 md:row-start-1 md:row-end-3 md:col-start-2 rounded-3xl p-4 flex flex-col gap-4"
+        >
+          <h2 class="text-xl underline">Actividades UVAs</h2>
+          <ul class="list-disc list-inside flex flex-col gap-2">
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/quizzing/user/quiz_summary.d2l?qi=48747&ou=43569"
+                target="_blank"
+                >Cuestionario - Múltiple choice: Conceptos generales ✅
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/quizzing/user/quiz_summary.d2l?qi=48748&ou=43569"
+                target="_blank"
+                >Cuestionario - Múltiple choice: Arquitectura ✅
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/quizzing/user/quiz_summary.d2l?qi=48749&ou=43569"
+                target="_blank"
+                >Cuestionario - Verdadero o falso: Integración de HTML ✅
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/quizzing/user/quiz_summary.d2l?qi=48750&ou=43569"
+                target="_blank"
+                >Cuestionario - Múltiple choice: Introducción a CSS ✅
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/quizzing/user/quiz_summary.d2l?qi=51570&ou=43569"
+                target="_blank"
+                >UX/UI de un sitio ✅</a
+              >
+            </li>
+            <li>
+              Ejercicio individual: HTML - Introducción ✅
+              <a
+                class="hover:underline"
+                href="https://github.com/LucasZibaitisUADE/Zibaitis_-1224542_22032025_IntroaHTML"
+                target="_blank"
+                >Repositorio</a
+              >
+              <a
+                class="hover:underline"
+                href="https://lucaszibaitisuade.github.io/Zibaitis_-1224542_22032025_IntroaHTML/"
+                target="_blank"
+                >Deploy</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/dropbox/user/folder_submit_files.d2l?db=47749&grpid=0&isprv=0&bp=0&ou=43569"
+                target="_blank"
+                >Ejercicio individual: HTML - Etiquetas ❌
+              </a>
+            </li>
+            <li>
+              Ejercicio individual: Ejercicio integrador ✅
+              <a
+                class="hover:underline"
+                href="https://github.com/LucasZibaitisUADE/Zibaitis_1224542-_06042025_-Integraci-n-"
+                target="_blank"
+                >Repositorio
+              </a>
+              <a
+                class="hover:underline"
+                href="https://lucaszibaitisuade.github.io/Zibaitis_1224542-_06042025_-Integraci-n-/"
+                target="_blank"
+                >Deploy
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/dropbox/user/folder_submit_files.d2l?db=47751&grpid=0&isprv=0&bp=0&ou=43569"
+                target="_blank"
+                >Ejercicio individual: Formato de texto ❌
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/dropbox/user/folder_submit_files.d2l?db=47752&grpid=0&isprv=0&bp=0&ou=43569"
+                target="_blank"
+                >Ejercicio individual: Formato de cajas ❌
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/dropbox/user/folder_submit_files.d2l?db=47756&grpid=0&isprv=0&bp=0&ou=43569"
+                target="_blank"
+                >Ejercicio individual: Unidades de medida ❌
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/dropbox/user/folder_submit_files.d2l?db=47757&grpid=0&isprv=0&bp=0&ou=43569"
+                target="_blank"
+                >Ejercicio individual: Grid y Flexbox ❌
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:underline"
+                href="https://virtualbsp.uade.edu.ar/d2l/lms/dropbox/user/folder_submit_files.d2l?db=47757&grpid=0&isprv=0&bp=0&ou=43569"
+                target="_blank"
+                >Ejercicio individual: Grid y Flexbox ❌
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="flex items-center justify-center h-12 w-screen bg-[#b7c9d9]">
+      <p class="md:text-lg">Curso: 15130 / Profesora: Patricia Litovicius</p>
+    </footer>
+  </body>
+</html>

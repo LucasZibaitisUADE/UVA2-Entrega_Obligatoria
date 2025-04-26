@@ -1,0 +1,204 @@
+<!-- Background: #f7f7f9 (Light Gray) Primary Color: #b7c9d9 (Pastel Blue) Accent
+Color: #f6b5b1 (Pastel Pink) Text Color: #2c2c2c (Dark Gray) Hover Color:
+#f6d3d1 (Light Pastel Pink) -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Inicio</title>
+  </head>
+  <body class="bg-[#f7f7f9] h-screen flex flex-col">
+    <header>
+      <nav
+        class="w-full bg-[#b7c9d9] h-24 flex items-center justify-center text-[#2c2c2c] md:text-xl font-light font-inter"
+      >
+        <ul class="flex gap-4 md:gap-10">
+          <li>
+            <a
+              href="index.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              href="avisos.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Avisos</a
+            >
+          </li>
+          <li>
+            <a
+              href="sobre-mi.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Sobre mi</a
+            >
+          </li>
+          <li>
+            <a
+              href="materias.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Materias</a
+            >
+          </li>
+          <li>
+            <a
+              href="contacto.html"
+              class="hover:text-[#f7f7f9] transition-all duration-125"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="flex grow flex-col items-center py-8 px-4 md:py-10 md:px-24 gap-8"
+    >
+      <h1 class="text-3xl text-[#2c2c2c]">Inicio</h1>
+      <table class="hidden md:table text-[#2c2c2c] w-full max-w-4xl">
+        <thead>
+          <tr class="bg-[#f6b5b1] h-12 text-left">
+            <th class="rounded-tl-3xl pl-4">Materia</th>
+            <th>Día</th>
+            <th class="text-center">Horario</th>
+            <th class="rounded-tr-3xl">Profesor/a</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="h-10 hover:bg-[#f6d3d1]/30 duration-125 transition-all">
+            <td class="pl-4">Arquitectura de Computadores</td>
+            <td>Lunes</td>
+            <td class="text-center">18:30</td>
+            <td class="pr-4">Leonardo Prieto</td>
+          </tr>
+          <tr
+            class="h-10 bg-[#f6b5b1]/20 hover:bg-[#f6b5b1]/30 duration-125 transition-all"
+          >
+            <td class="pl-4">Sistemas de Información</td>
+            <td>Martes</td>
+            <td class="text-center">18:30</td>
+            <td class="pr-4">Marcelo Tadey</td>
+          </tr>
+          <tr class="h-10 hover:bg-[#f6d3d1]/30 duration-125 transition-all">
+            <td class="pl-4">Introducción a la Algoritmia</td>
+            <td>Miercoles</td>
+            <td class="text-center">18:30</td>
+            <td class="pr-4">Guillermo</td>
+          </tr>
+          <tr
+            class="h-10 bg-[#f6b5b1]/20 hover:bg-[#f6b5b1]/30 duration-125 transition-all"
+          >
+            <td class="pl-4">Marketing</td>
+            <td>Jueves</td>
+            <td class="text-center">18:30</td>
+            <td class="pr-4">Mónica Comesaña</td>
+          </tr>
+          <tr class="h-10 hover:bg-[#f6d3d1]/30 duration-125 transition-all">
+            <td class="pl-4">
+              <a class="hover:underline" href="./diseño-web.html"
+                >Diseño y Desarrollo Web</a
+              >
+            </td>
+            <td>Viernes</td>
+            <td class="text-center">18:30</td>
+            <td class="pr-4">Patricia Litovicius</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="md:hidden w-full flex flex-col gap-4 text-[#2c2c2c]">
+        <div class="flex flex-col">
+          <h2
+            class="border border-transparent flex items-center justify-center bg-[#f6b5b1] rounded-t-3xl h-10"
+          >
+            Arquitectura de Computadores
+          </h2>
+          <div
+            class="grid grid-cols-2 border border-[#f6b5b1] px-4 py-2 gap-y-2 rounded-b-3xl"
+          >
+            <p class="font-bold">Día</p>
+            <p class="text-end">Lunes</p>
+            <p class="font-bold">Horario</p>
+            <p class="text-end">18:30</p>
+            <p class="font-bold">Profesor/a</p>
+            <p class="text-end">Leonardo Prieto</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <h2
+            class="border border-transparent flex items-center justify-center bg-[#f6b5b1] rounded-t-3xl h-10"
+          >
+            Sistemas de Información
+          </h2>
+          <div
+            class="grid grid-cols-2 border border-[#f6b5b1] px-4 py-2 gap-y-2 rounded-b-3xl"
+          >
+            <p class="font-bold">Día</p>
+            <p class="text-end">Martes</p>
+            <p class="font-bold">Horario</p>
+            <p class="text-end">18:30</p>
+            <p class="font-bold">Profesor/a</p>
+            <p class="text-end">Marcelo Tadey</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <h2
+            class="border border-transparent flex items-center justify-center bg-[#f6b5b1] rounded-t-3xl h-10"
+          >
+            Introducción a la Algoritmia
+          </h2>
+          <div
+            class="grid grid-cols-2 border border-[#f6b5b1] px-4 py-2 gap-y-2 rounded-b-3xl"
+          >
+            <p class="font-bold">Día</p>
+            <p class="text-end">Miércoles</p>
+            <p class="font-bold">Horario</p>
+            <p class="text-end">18:30</p>
+            <p class="font-bold">Profesor/a</p>
+            <p class="text-end">Guillermo</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <h2
+            class="border border-transparent flex items-center justify-center bg-[#f6b5b1] rounded-t-3xl h-10"
+          >
+            Marketing
+          </h2>
+          <div
+            class="grid grid-cols-2 border border-[#f6b5b1] px-4 py-2 gap-y-2 rounded-b-3xl"
+          >
+            <p class="font-bold">Día</p>
+            <p class="text-end">Jueves</p>
+            <p class="font-bold">Horario</p>
+            <p class="text-end">18:30</p>
+            <p class="font-bold">Profesor/a</p>
+            <p class="text-end">Mónica Comesaña</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <h2
+            class="border border-transparent flex items-center justify-center bg-[#f6b5b1] rounded-t-3xl h-10"
+          >
+            Diseño y Desarrollo Web
+          </h2>
+          <div
+            class="grid grid-cols-2 border border-[#f6b5b1] px-4 py-2 gap-y-2 rounded-b-3xl"
+          >
+            <p class="font-bold">Día</p>
+            <p class="text-end">Viernes</p>
+            <p class="font-bold">Horario</p>
+            <p class="text-end">18:30</p>
+            <p class="font-bold">Profesor/a</p>
+            <p class="text-end">Patricia Litovicius</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
